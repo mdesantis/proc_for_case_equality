@@ -13,8 +13,7 @@ case [1, 2, 3]
 when all_multiples_of_3 then puts 'all numbers are multiples of 3'
 when any_multiple_of_3 then puts 'at least one number is multiple of 3'
 else puts 'no multiples of 3'
-end
-"
+end"
 end
 
 desc 'IRB console'
