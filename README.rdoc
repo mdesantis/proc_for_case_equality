@@ -11,7 +11,7 @@ Simple yet powerful: it lets you use procs for case comparisons (see the example
 == Usage / Examples
 
     require 'proc_for_case_equality' # OR:
-    require 'proc_for_case_equality/pfce' # if you want PFCE point to ProcForCaseEquality
+    require 'proc_for_case_equality/pfce' # if you want PFCE to point to ProcForCaseEquality
 
     # Define some procs
     all_multiples_of_3 = ProcWithCaseEquality.new { |numbers| numbers.all? { |number| number.modulo(3).zero? } }
