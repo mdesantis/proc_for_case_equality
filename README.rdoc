@@ -1,6 +1,8 @@
-= ProcForCaseEquality
+= ProcForCaseEquality.new { puts 'procs in case statements are cool!' }
 
 == Features
+
+Simple yet powerful: it lets you use procs for case comparisons (see the example below).
 
 == Installation
 
@@ -23,6 +25,10 @@
     else
       puts 'no multiples of 3'
     end
+
+== Inspired by
+
+{This article}[http://www.aimred.com/news/developers/2008/08/14/unlocking_the_power_of_case_equality_proc/]
 
 == License
 
