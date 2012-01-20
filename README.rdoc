@@ -2,7 +2,7 @@
 
 == Features
 
-Simple yet powerful: it lets you use procs for case comparisons (see the example {file:README.rdoc#Usage___Examples below}).
+Simple yet powerful: it lets you use procs for case comparisons (see the example below).
 
 == How
 
