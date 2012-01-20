@@ -30,8 +30,8 @@ The source code is so simple that I can put it in full here:
     require 'proc_for_case_equality/pfce' # if you want PFCE constant to point to ProcForCaseEquality
 
     # Define some procs
-    all_multiples_of_3 = ProcWithCaseEquality.new { |numbers| numbers.all? { |number| number.modulo(3).zero? } }
-    any_multiple_of_3  = ProcWithCaseEquality.new { |numbers| numbers.any? { |number| number.modulo(3).zero? } }
+    all_multiples_of_3 = ProcForCaseEquality.new { |numbers| numbers.all? { |number| number.modulo(3).zero? } }
+    any_multiple_of_3  = PFCE.new { |numbers| numbers.any? { |number| number.modulo(3).zero? } } # PFCE is provided by 'proc_for_case_equality/pfce'
 
     # Here we come
     case [1, 2, 3]
