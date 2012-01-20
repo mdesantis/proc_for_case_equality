@@ -12,7 +12,13 @@ passing the value of the case as parameter.
 
 The source code is so simple that I can put it here:
 
-:include:proc_for_case_equality
+    class ProcForCaseEquality < Proc
+      def ===(*params)
+        self.call *params
+      end
+    end
+
+Five lines :P
 
 == Installation
 
