@@ -6,6 +6,7 @@ Echoe.new("proc_for_case_equality") do |p|
   p.author      = "De Santis Maurizio"
   p.email       = 'desantis.maurizio@gmail.com'
   p.description = "proc_for_case_equality - For using procs in case comparisons"
+  p.url         = "https://github.com/ProGNOMmers/proc_for_case_equality"
   p.summary     = "It lets you use procs for case comparisons. Example:
 all_multiples_of_3 = ProcForCaseEquality.new { |numbers| numbers.all? { |number| number.modulo(3).zero? } }
 any_multiple_of_3 = ProcForCaseEquality.new { |numbers| numbers.any? { |number| number.modulo(3).zero? } }
