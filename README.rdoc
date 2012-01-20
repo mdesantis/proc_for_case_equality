@@ -2,15 +2,15 @@
 
 == Features
 
-Simple yet powerful: it lets you use procs for case comparisons (see the example below).
+Simple yet powerful: it lets you use procs for case comparisons (see the example {file:README.rdoc#Usage___Examples below}).
 
 == How
 
-<tt>case</tt> statements call the <tt>:===</tt> method, so I wrote a <tt>ProcForCaseEquality</tt> class
-that inherits from <tt>Proc</tt> and overrides <tt>:===</tt>, letting the case statement call the proc
-passing the value of the case as parameter.
++case+ statements call the +===+ method, so I wrote a +ProcForCaseEquality+ class
+that inherits from +Proc+ and overrides +===+, letting the case statement call the proc
+passing the value of the case as argument.
 
-The source code is so simple that I can put it here:
+The source code is so simple that I can put it in full here:
 
     class ProcForCaseEquality < Proc
       def ===(*params)
@@ -22,7 +22,7 @@ The source code is so simple that I can put it here:
 
 == Installation
 
-<tt>gem install proc_for_case_equality</tt> *COMING*
++gem install proc_for_case_equality+ *COMING*
 
 == Usage / Examples
 
@@ -49,4 +49,4 @@ The source code is so simple that I can put it here:
 
 == License
 
-MIT (see {LICENSE}[https://github.com/ProGNOMmers/proc_for_case_equality/blob/master/LICENSE])
+MIT (see {file:LICENSE})
