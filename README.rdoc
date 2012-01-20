@@ -18,7 +18,7 @@ The source code is so simple that I can put it here:
       end
     end
 
-Five lines :P
+5 LOCs :P
 
 == Installation
 
@@ -33,6 +33,7 @@ Five lines :P
     all_multiples_of_3 = ProcWithCaseEquality.new { |numbers| numbers.all? { |number| number.modulo(3).zero? } }
     any_multiple_of_3  = ProcWithCaseEquality.new { |numbers| numbers.any? { |number| number.modulo(3).zero? } }
 
+    # Here we come
     case [1, 2, 3]
     when all_multiples_of_3 
       puts 'all numbers are multiples of 3'
