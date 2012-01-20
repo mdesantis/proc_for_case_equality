@@ -6,8 +6,8 @@ Simple yet powerful: it lets you use procs for case comparisons (see the example
 
 == How
 
-+case+ statements call the +===+ method, so I wrote a +ProcForCaseEquality+ class
-that inherits from +Proc+ and overrides +===+, letting the case statement call the proc
++case+ statements call the <tt>===</tt> method, so I wrote a +ProcForCaseEquality+ class
+that inherits from +Proc+ and overrides <tt>===</tt>, letting the case statement call the proc
 passing the value of the case as argument.
 
 The source code is so simple that I can put it in full here:
@@ -22,7 +22,7 @@ The source code is so simple that I can put it in full here:
 
 == Installation
 
-+gem install proc_for_case_equality+ *COMING*
+<tt>gem install proc_for_case_equality</tt> *COMING*
 
 == Usage / Examples
 
