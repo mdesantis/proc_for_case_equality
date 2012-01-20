@@ -10,6 +10,10 @@ Simple yet powerful: it lets you use procs for case comparisons (see the example
 that inherits from <tt>Proc</tt> and overrides <tt>:===</tt>, letting the case statement call the proc
 passing the value of the case as parameter.
 
+The source code is so simple that I can put it here:
+
+:include:proc_for_case_equality
+
 == Installation
 
 <tt>gem install proc_for_case_equality</tt> *COMING*
