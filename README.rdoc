@@ -12,11 +12,13 @@ passing the value of the case as argument.
 
 The source code is so simple that I can put it in full here:
 
+    ```ruby
     class ProcForCaseEquality < Proc
       def ===(*params)
         self.call *params
       end
     end
+    ```
 
 5 LOCs :P
 
