@@ -22,7 +22,7 @@ The source code is so simple that I can put it in full here:
 
 == Installation
 
-<tt>gem install proc_for_case_equality</tt> *COMING*
+<tt>gem install proc_for_case_equality</tt>
 
 == Usage / Examples
 
