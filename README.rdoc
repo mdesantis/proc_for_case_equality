@@ -1,0 +1,29 @@
+= ProcForCaseEquality
+
+== Features
+
+== Installation
+
+<tt>gem install proc_for_case_equality</tt> *COMING*
+
+== Usage / Examples
+
+    require 'proc_for_case_equality' # OR:
+    require 'proc_for_case_equality/pfce' # if you want PFCE point to ProcForCaseEquality
+
+    # Define some procs
+    all_multiples_of_3 = ProcWithCaseEquality.new { |numbers| numbers.all? { |number| number.modulo(3).zero? } }
+    any_multiple_of_3  = ProcWithCaseEquality.new { |numbers| numbers.any? { |number| number.modulo(3).zero? } }
+
+    case [1, 2, 3]
+    when all_multiples_of_3 
+      puts 'all numbers are multiples of 3'
+    when any_multiple_of_3
+      puts 'at least one number is multiple of 3'
+    else
+      puts 'no multiples of 3'
+    end
+
+== License
+
+MIT (see {LICENSE}[https://github.com/ProGNOMmers/proc_for_case_equality/blob/master/LICENSE])
