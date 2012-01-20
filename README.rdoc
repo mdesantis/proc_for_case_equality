@@ -6,7 +6,9 @@ Simple yet powerful: it lets you use procs for case comparisons (see the example
 
 == How
 
-<tt>case</tt> statements call the <tt>:===</tt> method, so I wrote a <tt>ProcForCaseEquality</tt> class that overrides <tt>Proc#===</tt>, letting the case statement call the proc passing the value of the case as parameter.
+<tt>case</tt> statements call the <tt>:===</tt> method, so I wrote a <tt>ProcForCaseEquality</tt> class
+that inherits from <tt>Proc</tt> and overrides <tt>Proc#===</tt>, letting the case statement call the proc
+passing the value of the case as parameter.
 
 == Installation
 
